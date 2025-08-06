@@ -23,12 +23,13 @@ Ce script crée un dossier spécifié en paramètre, puis génère 4 fichiers te
 ./creation_script.sh repo_devops git
 
 **Résultat attendu :**
+```
 repo_devops/
 ├── git_2025-08-06-14-30-21-123.txt
 ├── git_2025-08-06-14-30-21-623.txt
 ├── git_2025-08-06-14-30-22-123.txt
 ├── git_2025-08-06-14-30-22-623.txt
-
+```
 ## 2. Script de réorganisation – `reorganization_script.sh`
 
 Ce script prend en paramètre le nom du dossier créé par `creation_script.sh`. Il parcourt tous les fichiers `.txt` dans ce dossier, extrait les informations de date à partir du nom de chaque fichier, puis crée une structure de dossiers hiérarchique selon l’année, le mois, le jour et l’heure.
@@ -45,6 +46,7 @@ Chaque fichier est ensuite recréé dans ce nouvel emplacement sous la forme d�
 ./reorganization_script.sh repo_devops
 
 **Résultat attendu :**
+```
 root/
 └── repo_devos/
     └── git/
@@ -56,6 +58,7 @@ root/
                         ├── 3021623.dat
                         ├── 3022123.dat
                         └── 3023123.dat
+```
 Chaque fichier .dat contient par exemple :
 Previous file name: 2025-08-06-14-30-21-123
 Previous file location: logs/logfile_2025-08-06-14-30-21-123.txt
