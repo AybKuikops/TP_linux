@@ -74,6 +74,10 @@ Name of the script that created this file: reorganization_script
 
 <img src="img/results_tree.png" alt="Sortie tree root" width="500"/>
 
+### Contenu des l'un des fichiers .dat après exécution de `reorganization_script.sh` :
+
+<img src="img/reorganization_script.png" alt="Sortie tree root" width="500"/>
+
 
 
 ## 4. Conclusion et compétences abordées
