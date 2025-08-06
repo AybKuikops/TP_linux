@@ -68,11 +68,11 @@ Name of the script that created this file: reorganization_script
 
 ### Résultat pour le premier script :
 
-![Résultat du premier script](img/file_creation.png)
+<img src="img/file_creation.png" alt="Résultat du premier script" width="500"/>
 
 ### Sortie de la commande `tree root` après exécution de `reorganization_script.sh` :
 
-![Sortie de la commande tree root](img/results_tree.png)
+<img src="img/results_tree.png" alt="Sortie tree root" width="500"/>
 
 
 
